@@ -1,6 +1,6 @@
 clear;clc
+
 //Callbacks
-//C:\Users\M Zidane\Documents\aku-kompros\Tubes\Data Tubes.xls
 function calculate()
     set("log_text", "string", "Status: Running (check console for any error if the process stuck)")
     Sheet = readxls(get("xls_input","String"))
@@ -22,6 +22,7 @@ function calculate()
         dHin(i)=Mass_in(i)*Cpin(i)
         dHout(i)=Mass_in(i)*Cpout(i)
     end
+
     mprintf('\n-------------------------------------------------------------\n')
     mprintf('Comp No. Input      CpdT in     CpdT out    ΔH in      ΔH out')
     mprintf('\n-------------------------------------------------------------\n')
