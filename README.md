@@ -4,7 +4,7 @@
 ![window preview](https://github.com/Danedevz/he-simulation/blob/main/preview/Window.png?raw=true)
 
 #### Required data:
-- an .xls file consisting of input mass flow and heat capacity parameters (CP) for each component
+- path/directory leading to your .xls file consisting of input mass flow and heat capacity parameters (CP) for each component (ex: C:\Users\path\to\file.xls)
 <table class="tg">
 <thead>
   <tr>
