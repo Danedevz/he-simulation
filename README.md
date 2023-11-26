@@ -1,9 +1,9 @@
 # he-simulation
-#### A simple Heat Exchanger simulation app written in Scilab 6
+### A simple Heat Exchanger simulation app written in Scilab 6
 
 ![window preview](https://github.com/Danedevz/he-simulation/blob/main/preview/Window.png?raw=true)
 
-Required data:
+#### Required data:
 - an .xls file consisting of input mass flow and heat capacity parameters (CP) for each component
 <table class="tg">
 <thead>
@@ -61,10 +61,10 @@ Required data:
 </table>
 
 - reference temperature (K)
-- - T input
+- T input
 - T output
 
-What you get:
+#### What you get:
 - Cp input and output
 - Enthalpy input and output
 - Amount of heat required (Q)
