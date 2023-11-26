@@ -4,7 +4,7 @@ clear;clc
 function calculate()
     set("log_text", "string", "Status: Running (check console for any error if the process stuck)")
     Sheet = readxls(get("xls_input","String"))
-    Data=Sheet(3)
+    Data=Sheet(1)
     Component=Data(3:$,1)
     Mass_in=Data(3:$,2)
     CpA=Data(3:$,3)
